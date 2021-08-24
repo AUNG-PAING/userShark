@@ -14,6 +14,7 @@ import 'package:image_picker/image_picker.dart';
 
 class Api {
   static Future<bool> getCategoty() async {
+    print("I am bobo");
     var url = "${Global.BASE_URL}/cate/";
     var response = await http.get(url);
 //    print(response.runtimeType);

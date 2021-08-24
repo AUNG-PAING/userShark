@@ -19,6 +19,7 @@ class _RegisterState extends State<Register> {
   var picker=ImagePicker();
   File file;
 
+
   var nameController=TextEditingController();
   var passController=TextEditingController();
   var conpassController=TextEditingController();
